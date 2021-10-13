@@ -1,0 +1,24 @@
+
+
+@media (min-width:600px) {
+   .rootcard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pcard{
+    max-width: 25%;
+    margin: 2rem;
+} 
+.authcard{
+    margin: 1rem auto !important;
+    max-width: 50rem !important;
+    padding: 1rem;
+}
+
+.input:focus{
+    border-bottom: 1px solid #1565c0 !important ;
+    box-shadow: 0 1px 0 0 #1565c0 !important;
+}
+
+
+}
